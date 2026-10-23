@@ -1,0 +1,9 @@
+﻿{
+  "condition": "19:00",
+  "actions": {
+    "A1": { "status": "COMPLETED", "requires": [] },
+    "A2": { "status": "FAILED", "requires": ["A1"] },
+    "A3": { "status": "BLOCKED", "requires": ["A2"], "dependsOnCondition": true }
+  },
+  "eligible": []
+}

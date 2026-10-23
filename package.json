@@ -1,0 +1,10 @@
+﻿{
+  "name": "agent-recovery-contract",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Deterministic reference contract for reconciling interrupted agent workflows before resumption.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test" }
+}
